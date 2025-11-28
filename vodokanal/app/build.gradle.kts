@@ -59,4 +59,12 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // Зависимости для работы с mqtt:
+    implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
+    implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1")
+
+    // Зависимости для работы с json файлами (для класса JsonReader)
+    implementation("com.google.code.gson:gson:2.10.1")
+
 }

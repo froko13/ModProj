@@ -1,4 +1,6 @@
 package it.cube.vodokanal.user_settings
 
-data class Group(var number: Int,
-                )
+data class Group(
+    var name: String,
+    var channels: ArrayList<Channel>,
+    )
