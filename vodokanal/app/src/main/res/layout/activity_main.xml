@@ -28,7 +28,7 @@
         android:text="Подключиться к топику 1" />
 
     <TextView
-        android:id="@+id/showLastMessageTopic2"
+        android:id="@+id/showLastMessageTopic2TV"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="40dp"

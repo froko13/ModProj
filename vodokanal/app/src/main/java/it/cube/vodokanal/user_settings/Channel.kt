@@ -5,7 +5,7 @@ data class Channel(
     var topic: String,
     var unitsMeasures: String,
     var maxValue: Double,
-    var currentValue: Double,
+    var lastMessage: String,
     var viewType: Int,
     var color: String,
     )
